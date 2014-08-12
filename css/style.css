@@ -1,14 +1,20 @@
-@import url(http://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
 
 body {
-	font-family: Arial, serif;
-	font-size: 12px;
-	background: #2c3e50;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	background: #2980b9;
 	overflow-x: hidden;
+	color: #111;
 }
 
 img {
 	max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 300;
 }
 
 #bg {
@@ -27,20 +33,20 @@ img {
 }
 
 #header .navbar .navbar-brand {
-	font-family: 'Indie Flower', cursive;
+	font-family: 'Open Sans', sans-serif;
 }
 
 section {
 	padding: 60px 0 100px;
 }
 
-.section-header {
+.section-header > h2 {
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
 
-.section-subheader{
+.section-subheader {
 	text-align: center;
 }
 
@@ -97,6 +103,14 @@ section {
 	color: #fff;
 }
 
+#goal .section-header {
+	margin-bottom: 30px;
+}
+
+#goal #goal-text {
+	margin-bottom: 40px;
+}
+
 /*
 	Boss
 */
@@ -116,12 +130,16 @@ section {
 	color: #fff;
 }
 
+#logbook .section-subheader {
+	margin-bottom: 20px;
+}
+
 /*
 	Group
 */
 #group {
 	background: #fff;
-	padding: 40px 0;
+	padding: 40px 0 20px;
 }
 
 #group .section-header {
